@@ -1,0 +1,71 @@
+body {
+    background-color: #f1faee;
+}
+
+article {
+    margin: 30px;
+    background-color: #a8dadc;
+}
+
+.box {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* HEADER */
+.logo {
+    font-family: 'Meddon', cursive;
+    /* color: #a8dadc; */
+    color: #e63946;
+    /* color: #f1faee; */
+    /* color: #457b9d; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding-left: 20%; */
+    position: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* .logoBanner {
+    background-color: #f1faee;;
+  } */
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    /* Positioning */
+    position: fixed;
+    bottom: 0;
+  
+    /* Box-model */
+    width: 100%;
+    height: 30px;
+  
+    /* Visual */
+    background-color: #1d3557;
+  
+    flex-shrink: 0;
+  }
+  
+  .text-muted-footer {
+    /* Box-model */
+    margin-top: 5px;
+  
+    /* Typography */
+    color: #fff;
+  }
+  
+  .footer-text {
+    color: white;
+    margin-top: 8px;
+    font-size: 10px;
+  }
