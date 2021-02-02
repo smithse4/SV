@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 button {
@@ -27,7 +27,7 @@ button:hover {
   font-family: "Meddon", cursive;
   color: #e63946;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   margin: 0;
   position: center;
   align-items: center;
@@ -38,6 +38,14 @@ button:hover {
     background-color: #f1faee;;
   } */
 
+.nav-box {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  border-top: 1px solid #e63946;
+  border-bottom: 1px solid #e63946;
+}
+
 .nav-text {
   color: #1d3557;
 }
@@ -47,19 +55,16 @@ button:hover {
 }
 
 li {
-    padding-left: 100px;
-    padding-right: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 
-    position: center;
-    align-items: center;
-    text-align: center;
+  position: center;
+  align-items: center;
+  text-align: center;
 }
 
 nav {
-    /* position: center; */
-    align-items: center;
-    /* text-align: center; */
-
+  align-items: center;
 }
 
 p {
@@ -92,27 +97,21 @@ p {
 }
 
 section {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 /* FOOTER */
 .footer {
-  /* Positioning */
   position: fixed;
   bottom: 0;
-
-  /* Box-model */
   width: 100%;
   height: 30px;
-
-  /* Visual */
   background-color: #1d3557;
-
   flex-shrink: 0;
 }
 
 .footer-text {
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   font-size: 10px;
 }
