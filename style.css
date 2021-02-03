@@ -97,21 +97,23 @@ li {
 .btn-logos {
   padding: 30px;
   color: #1d3557;
-  font-size: 2.5em;
   text-align: right;
   position: center;
 }
 
 #svp-logo {
   font-family: "Meddon", cursive;
+  font-size: 2em;
 }
 
 #srsa-logo {
   font-family: "Cinzel", serif;
+  font-size: 2.5em;
 }
 
 #hlms-logo {
   font-family: "Dawning of a New Day", cursive;
+  font-size: 2.5em;
 }
 
 .biz-image {
@@ -187,15 +189,25 @@ li {
 }
 
 @media screen and (max-width: 1200px) {
-  .btn-logos {
+  #svp-logo {
+    font-size: 1.5em;
+  }
+  #srsa-logo {
     font-size: 2em;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .btn-logos {
+  #svp-logo {
     font-size: 1em;
   }
+  #srsa-logo {
+    font-size: 1.5em;
+  }
+  #hlms-logo {
+    font-size: 2em;
+  }
+
   li {
     padding-left: 20px;
     padding-right: 20px;
@@ -203,7 +215,13 @@ li {
 }
 
 @media screen and (max-width: 770px) {
-  .btn-logos {
+  #svp-logo {
     font-size: .5em;
+  }
+  #srsa-logo {
+    font-size: 1em;
+  }
+  #hlms-logo {
+    font-size: 1.5em;
   }
 }
