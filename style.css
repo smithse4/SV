@@ -90,9 +90,12 @@ li {
   background-color: #457b9d;
 }
 
+.right-side {
+  float: right;
+}
+
 .btn-logos {
-  padding-right: 30px;
-  padding-top: 10px;
+  padding: 30px;
   color: #1d3557;
   font-size: 2.5em;
   text-align: right;
@@ -115,7 +118,7 @@ li {
   height: 130px;
   width: 173px;
   float: left;
-  margin: 5px;
+  margin: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
