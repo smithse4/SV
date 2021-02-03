@@ -1,25 +1,12 @@
+/* ALL PAGES */
+
 body {
   background-color: #f7f4f1;
   font-family: "Raleway", sans-serif;
 }
 
-.home-btn {
-  margin: 10px;
-  height: 160px;
-  width: 100%;
-  background-color:#9abcd1 ;
-  border: none;
-  align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.home-btn:hover {
-  background-color: #457b9d;
-}
-
-.box {
-  padding-left: 10%;
-  padding-right: 10%;
+section {
+  margin-bottom: 80px;
 }
 
 /* HEADER */
@@ -34,9 +21,10 @@ body {
   text-align: center;
 }
 
-/* .logoBanner {
-    background-color: #f1faee;;
-  } */
+/* NAV */
+nav {
+  align-items: center;
+}
 
 .nav-box {
   margin: 0;
@@ -64,8 +52,42 @@ li {
   text-align: center;
 }
 
-nav {
+/* MIDDLE SECTION */
+.box {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #1d3557;
+  flex-shrink: 0;
+}
+
+.footer-text {
+  color: white;
+  margin-top: 8px;
+  font-size: 10px;
+}
+
+
+/* HOME PAGE */
+.home-btn {
+  margin: 10px;
+  height: 160px;
+  width: 100%;
+  background-color:#9abcd1 ;
+  border: none;
   align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-btn:hover {
+  background-color: #457b9d;
 }
 
 .btn-logos {
@@ -97,12 +119,7 @@ nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#contact-image {
-  max-height: 450px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
+/* ABOUT PAGE */
 #about-image {
   border-radius: 50%;
   max-height: 300px;
@@ -110,8 +127,53 @@ nav {
   margin-right: none;
 }
 
+#about-box {
+  background-color: white;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about-text {
+  padding: 80px;
+}
+
+#svspan {
+  font-weight: bolder;
+}
+
+.bio-image {
+  border-radius: 50%;
+  max-height: 200px;
+  /* padding-top: 30px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bio-card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bio-name {
+  color: #e63946;
+  font-family: "Meddon", cursive;
+  text-align: center;
+}
+
+.bio-text {
+  padding: 20px;
+}
+
+/* CONTACT PAGE */
+#contact-image {
+  max-height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #contact-image:hover{
-  opacity: .7;
+  opacity: .6;
 }
 
 #contact-btn {
@@ -121,33 +183,5 @@ nav {
   margin-right: auto;
 }
 
-#about-box {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-#about-text {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-}
 
-section {
-  margin-bottom: 80px;
-}
-
-/* FOOTER */
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 30px;
-  background-color: #1d3557;
-  flex-shrink: 0;
-}
-
-.footer-text {
-  color: white;
-  margin-bottom: 12px;
-  font-size: 10px;
-}
