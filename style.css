@@ -193,6 +193,10 @@ li {
   .btn-logos {
     font-size: 1em;
   }
+  li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media screen and (max-width: 770px) {
