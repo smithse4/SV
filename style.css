@@ -74,20 +74,19 @@ li {
   font-size: 10px;
 }
 
-
 /* HOME PAGE */
 .home-btn {
   margin: 10px;
-  height: 160px;
-  width: 100%;
-  background-color:#9abcd1 ;
+  /* background-color:#9abcd1 ; */
+  background-color: white;
   border: none;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .home-btn:hover {
-  background-color: #457b9d;
+  /* background-color: #457b9d; */
+  background-color: #9abcd1;
 }
 
 .right-side {
@@ -99,6 +98,10 @@ li {
   color: #1d3557;
   text-align: right;
   position: center;
+}
+
+.home-btn-p {
+  color: #e63946;
 }
 
 #svp-logo {
@@ -139,7 +142,7 @@ li {
 }
 
 #about-text {
-  padding: 80px;
+  padding: 50px;
 }
 
 #svspan {
@@ -177,8 +180,8 @@ li {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#contact-image:hover{
-  opacity: .6;
+#contact-image:hover {
+  opacity: 0.6;
 }
 
 #contact-btn {
@@ -216,7 +219,7 @@ li {
 
 @media screen and (max-width: 770px) {
   #svp-logo {
-    font-size: .5em;
+    font-size: 0.5em;
   }
   #srsa-logo {
     font-size: 1em;
@@ -224,4 +227,19 @@ li {
   #hlms-logo {
     font-size: 1.5em;
   }
+}
+
+@media screen and (max-width: 575px) {
+  #svp-logo {
+    font-size: 1em;
+  }
+
+  .btn-logos {
+    text-align: center;
+  }
+
+  #steph-frame {
+    margin-top: 30px;
+  }
+
 }
