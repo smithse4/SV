@@ -1,20 +1,20 @@
 body {
-  background-color: white;
+  background-color: #f7f4f1;
   font-family: "Raleway", sans-serif;
 }
 
-button {
+.home-btn {
   margin: 10px;
   height: 160px;
   width: 100%;
-  background-color: #457b9d;
+  background-color:#9abcd1 ;
   border: none;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-button:hover {
-  background-color: #a8dadc;
+.home-btn:hover {
+  background-color: #457b9d;
 }
 
 .box {
@@ -44,6 +44,7 @@ button:hover {
   padding: 0;
   border-top: 1px solid #e63946;
   border-bottom: 1px solid #e63946;
+  background-color: white;
 }
 
 .nav-text {
@@ -67,10 +68,10 @@ nav {
   align-items: center;
 }
 
-p {
+.btn-logos {
   padding-right: 30px;
   padding-top: 10px;
-  color: white;
+  color: #1d3557;
   font-size: 2.5em;
   text-align: right;
   position: center;
@@ -94,6 +95,42 @@ p {
   float: left;
   margin: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact-image {
+  max-height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about-image {
+  border-radius: 50%;
+  max-height: 300px;
+  margin: 30px;
+  margin-right: none;
+}
+
+#contact-image:hover{
+  opacity: .7;
+}
+
+#contact-btn {
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: none;
+}
+
+#about-box {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about-text {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 section {
