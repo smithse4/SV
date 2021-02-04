@@ -13,12 +13,23 @@ section {
 .logo {
   font-family: "Meddon", cursive;
   color: #e63946;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 15px;
+  padding-right: 30px;
   margin: 0;
   position: center;
-  align-items: center;
-  text-align: center;
+  /* align-items: center;
+  text-align: center; */
+  align-items: right;
+  text-align: right;
+  float: right;
+}
+
+#circle-logo {
+  max-height: 220px;
+  max-width: 220px;
+  padding-left: 30px;
+  float: left;
 }
 
 /* NAV */
@@ -44,8 +55,8 @@ nav {
 }
 
 li {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 
   position: center;
   align-items: center;
