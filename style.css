@@ -191,6 +191,14 @@ li {
   margin-right: auto;
 }
 
+/* COMING SOON TEMP PAGE */
+
+#coming-soon-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 1200px) {
   #svp-logo {
     font-size: 1.5em;
